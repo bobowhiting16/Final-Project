@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: darkgoldenrod;
+}
+
+ol {
+    font-weight: bold;
+}
+
+ul {
+    font-weight: lighter;
+}
+
+.links {
+    color: #f4f4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    display: flex;
+    background-color: darkgrey;
+    display: flex;
+    padding: 10px;
+
+}
+
+.topframe {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    text-align: center;
+    /* padding: 10px 0; */
+    /* z-index: 10; */
+}
+
+
+
+.media-container {
+    display: flex;            
+    flex-direction: row;      
+    justify-content: space-between;  
+    margin: 20px;            
+}
+
+.leftframe, .rightframe {
+    background-color: darkgrey;
+    color: black;
+    padding: 26px;
+    box-sizing: border-box;   
+}
+
+.leftframe {
+    width: 45%;              
+    height: 500px; 
+    color: blue;          
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.rightframe {
+    width: 45%;               
+    height: 500px; 
+    text-align: center;       
+    font-size: 40px;
+}
+
+
+/* .leftframe{
+    top: 200px;
+    left: 5px;
+    width: 800px;
+    height: 600px;
+    bottom: 39px;
+    background-color: darkgrey;
+    font-size: 50px;
+    color: black;
+    }
+
+.rightframe{
+float: right;
+    margin-top: 10px;
+margin-right: 5px;
+width: 100px;
+/* bottom: 39px; */
+    /* top: 200px;
+    right: 5px;
+    width: 800px;
+    height: 600px;
+    bottom: 39px; */
+    /* background-color: darkgrey;
+    font-size: 50px;
+        } */
+ 
+
+.graph {
+
+    margin-top: 60px; 
+    padding: 20px;
+    background-color: #f4f4f4; 
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+.head {
+    left: 5px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    display: flex;   
+}
+
+.absolute {
+    position: absolute;
+}
+
+
